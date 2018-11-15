@@ -54,6 +54,7 @@ namespace eCommercePortFolio
                     "~/vendor/daterangepicker/daterangepicker.css",
                     "~/vendor/slick/slick.css",
                     "~/vendor/lightbox2/css/lightbox.min.css",
+                "~/vendor/noui/nouislider.min.css",
                     "~/css/util.css",
                     "~/css/main.css"));
         }
