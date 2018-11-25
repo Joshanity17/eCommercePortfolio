@@ -11,11 +11,11 @@
     <body class="animsition" style="padding-top: unset !important;">
         @{
             Html.RenderPartial("_NavBar");
-            if (ViewBag.Type == 1)
-            {
-                ViewBag.ClassName = "container body-content";
-            }
-            else if(ViewBag.Type == 2)
+            //if (ViewBag.Type == 0)
+            //{
+            //    ViewBag.ClassName = "container body-content";
+            //}
+            if(ViewBag.Type == 2)
             {
                 ViewBag.ClassName = "container1-page";
             }
